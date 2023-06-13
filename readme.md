@@ -68,7 +68,8 @@ Aşağıda istenilen sonuçlara ulaşabilmek için gerekli SQL sorgularını yaz
 	
 	
 	8) 9A sınıfındaki tüm öğrencileri 10A sınıfına aktarın
-	
+	  
+	    UPDATE ogrenci SET sinif ='10A' WHERE sinif = '9A';
 	
 	9) Tüm öğrencilerin puanını 5 puan arttırın.
 	 
